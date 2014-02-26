@@ -1,16 +1,18 @@
----
-layout: lesson
-root: .
-title: Lessons (Version 5.0 Beta)
----
+Title: Lessons (Version 5.0 Beta)
+Template: index
+save_as: index.html
+Status: hidden
+
+**Testing Pelican, only Introduction and The Unix Shell/Introducing the Shell should work**
+
 We are currently updating our lessons
 to incorporate what we've learned from our learners
 in the last four years.
 
 ## For Novices
 
-*   [Introduction](intro.html)
-*   [The Unix Shell](novice/shell/index.html)
+*   [Introduction]({filename}intro.md)
+*   [The Unix Shell]({filename}novice/shell/index.md)
 *   [Version Control with Git](novice/git/index.html)
 *   [Programming with Python](novice/python/index.html)
 *   [Using Databases and SQL](novice/sql/index.html)
