@@ -50,20 +50,15 @@
     {% endif %}
 
     <div class="row-fluid">
-        {% if LANDING_PAGE_ABOUT and LANDING_PAGE_ABOUT.details %}
         {% set css_class = 'span8 offset2' %}
-        {% if PROJECTS and LANDING_PAGE_ABOUT %}
-        {% set css_class = 'span8' %}
-        {% endif %}
         <div class="{{css_class}}">
             <header>
-            <h1 id="about-me">About me</h1>
+                <h1>{{ page.title }}</h1>
             </header>
             <div class="article-content">
-                {{ LANDING_PAGE_ABOUT.details }}
+            {{ page.content }}
             </div>
         </div>
-        {% endif %}
 
         {% if PROJECTS %}
         {% set css_class = 'span8 offset2' %}
@@ -93,7 +88,7 @@
     <div class="row-fluid">
         <div class="{{css_class}}">
             <header>
-            <h1 id="recent-posts">Recent Posts <a id="allposts" href="{{ SITEURL }}/archives.html">all posts</a></h1>
+            <h1 id="recent-posts">Recent News <a id="allposts" href="{{ SITEURL }}/archives.html">all news</a></h1>
             </header>
         <div class="recent-posts">
             {% for article in articles %}

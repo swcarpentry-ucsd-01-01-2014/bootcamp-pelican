@@ -1,0 +1,12 @@
+/* Objectives and key points */
+.objectives, .keypoints {
+    background-color: azure;
+}
+
+/* Things to fix. */
+.fixme {
+    text-decoration: underline;
+    color: darkred;
+    background-color: lightgray;
+}
+
