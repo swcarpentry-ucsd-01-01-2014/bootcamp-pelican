@@ -17,4 +17,4 @@ env:
   - secure: NQR2NJO5c8V0WtGFkTUl0XnbMsr12Bec07MqrjbsJIL1X4ZBpqYi2XT0WFFWP78q1r4iNfGzUv5J2Pnj/NlrSBfFGK7kxRn67Znvw2SZ/rbZf7zUyYxs+6tf++MsztvzxjnvMDAUkDffLY7Nl0OzfkLGFnpdRCYnnjslmxrfsFE=
 before_install:
 - git submodule update --init --recursive
-after_success: ./deploy.sh
+after_success: bash deploy.sh
