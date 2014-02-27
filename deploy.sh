@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 BRANCH=master
-TARGET_REPO=swcarpentry-pelican/swcarpentry-pelican.github.io
+# split on /
+TRAVIS_REPO_SLUG_ARRAY=(${TRAVIS_REPO_SLUG//\// })
+GITHUB_ORGANIZATION=${TRAVIS_REPO_SLUG_ARRAY[0]}
+TARGET_REPO=$GITHUB_ORGANIZATION/$GITHUB_ORGANIZATION.github.io
 PELICAN_OUTPUT_FOLDER=output
 
 
