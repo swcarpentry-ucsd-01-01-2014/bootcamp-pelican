@@ -15,6 +15,10 @@ some input
 its output
 ~~~~
 
+## Testing IPython notebook conversion
+
+* [Numpy]({filename}01-numpy.md)
+
 
 We are currently updating our lessons
 to incorporate what we've learned from our learners

@@ -44,6 +44,9 @@
         {% include '_includes/feeds.html' %}
         {% endblock feed_links %}
         {% include '_includes/analytics.html' %}
+      {% if EXTRA_HEADER %}
+      {{ EXTRA_HEADER }}
+      {% endif %}
     </head>
     <body>
         <div id="content-sans-footer">

@@ -25,10 +25,13 @@ ARTICLE_URL = ARTICLE_SAVE_AS
 DISPLAY_PAGES_ON_MENU = False
 PLUGIN_PATH = 'pelican-plugins'
 
-PLUGINS = ['sitemap', 'extract_toc', 'tipue_search']
+NOTEBOOK_DIR = '../notebooks'
+EXTRA_HEADER = open('nb_header.html').read().decode('utf-8')
+
+PLUGINS = ['sitemap', 'extract_toc', 'tipue_search', 'liquid_tags.notebook']
 MD_EXTENSIONS = ['extra', 'headerid', 'toc']
 DIRECT_TEMPLATES = (('tags', 'categories','archives', 'search', '404'))
-STATIC_PATHS = ['theme/images', 'images']
+STATIC_PATHS = ['theme/images', 'images', 'lessons/img']
 TAG_SAVE_AS = ''
 CATEGORY_SAVE_AS = ''
 AUTHOR_SAVE_AS = ''
