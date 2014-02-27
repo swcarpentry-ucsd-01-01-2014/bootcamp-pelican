@@ -3,6 +3,7 @@ BRANCH=master
 TARGET_REPO=swcarpentry-pelican/swcarpentry-pelican.github.io
 PELICAN_OUTPUT_FOLDER=output
 
+
 if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
     echo -e "Starting to deploy to Github Pages\n"
     if [ "$TRAVIS" == "true" ]; then
