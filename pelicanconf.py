@@ -26,7 +26,7 @@ DISPLAY_PAGES_ON_MENU = False
 PLUGIN_PATH = 'pelican-plugins'
 
 PLUGINS = ['sitemap', 'extract_toc', 'tipue_search']
-MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
+MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc', 'fenced_code']
 DIRECT_TEMPLATES = (('tags', 'categories','archives', 'search', '404'))
 STATIC_PATHS = ['theme/images', 'images']
 TAG_SAVE_AS = ''
