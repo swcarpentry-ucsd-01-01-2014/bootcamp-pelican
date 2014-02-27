@@ -7,12 +7,13 @@ Status: hidden
 
 ## Testing fenced code blocks
 
-~~~ {.input}
+```input
 some input
-~~~
-~~~ {.output}
+```
+
+~~~~{.output}
 its output
-~~~
+~~~~
 
 
 We are currently updating our lessons

@@ -1,4 +1,5 @@
 pelican
+Pygments
 Markdown
 fabric
 BeautifulSoup4
