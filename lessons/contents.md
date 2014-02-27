@@ -5,6 +5,15 @@ Status: hidden
 
 **Testing Pelican, only Introduction and The Unix Shell/Introducing the Shell should work**
 
+## Testing fenced code blocks
+
+~~~ {.input}
+some input
+~~~
+~~~ {.output}
+its output
+~~~
+
 
 We are currently updating our lessons
 to incorporate what we've learned from our learners
