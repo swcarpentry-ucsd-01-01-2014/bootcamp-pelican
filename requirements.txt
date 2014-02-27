@@ -3,3 +3,4 @@ Pygments
 Markdown
 fabric
 BeautifulSoup4
+IPython
