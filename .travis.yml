@@ -6,7 +6,9 @@ python:
 - 2.7
 env:
   global:
-  - secure: f6n8ZepQMx0d3czz1Jz6EJziIsjW88egLY3suZNDy1Zx0+LfzyYZ/js5YmMvDdBUetQKO1WBGWY1yLL2ySmAQE7uk8gh8ysL329zg1CrGPKcblm1kQEQ9W+vKfTVpakGKvuKCgGnnQxQYlp0sZ2z/RS5wZaWm/CrVlKbsZtGsL0=
+  - secure: AiPYTKfVUmIE/cXfd7CWLAj6uXbYBPHzklbLul/yt6BNZAe0CKdOehOAyRUlc0xc4F+GsB/IccUBC49jxvHBqxTuAJ8pYKFpESb37pCJB2R58IWNjr8QRCPz8W3NiNr3WsNs5nmH7eHzZ2rOvPJnV+V7DLDnhtXGcwSWmKL6s7U=
+
+
 before_install:
 - sudo apt-get install pandoc
 - git submodule update --init --recursive
